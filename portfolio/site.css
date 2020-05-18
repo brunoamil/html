@@ -25,17 +25,51 @@ main a {
     color: #851944;
 }
 
+main {
+    float: left;
+    width: 85%;
+}
+
 h2 {
     font-size: 30px;
     font-family: "Open Sans Condensed", sans-serif;
     text-align: justify;
+    clear: both;
 }
 
+
+aside, img {
+    float: right;
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+.minha-foto {
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+aside {
+    box-sizing: border-box;
+    width: 15%;
+    position: relative;
+    top: 310px;
+}
 p {
     font-family: "Crimson Text", sans-serif;
     margin: 20px 0 20px 0;
 }
 
+.fiat {
+    float: right;
+}
+
+.petrobras {
+    float: left;
+}
 .citacoes {
     background-color: #D9E5E3;
     padding: 16px;
@@ -43,6 +77,11 @@ p {
     width: 250px;
     margin: 20px 40px 20px 40px;
     box-sizing: border-box;
+}
+
+cite {
+    font-style: italic;
+    float: right;
 }
 
 .navegacao-site {
@@ -70,13 +109,18 @@ ul {
     background-color: #000;
     color: #F2FFFC;
     padding: 20px;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .container {
     width: 720px;
     margin-left: auto;
     margin-right: auto;
-    padding: 30px 0 30px 0;
+    padding: 20px 0;
+    padding-bottom: 80px;
 }
 
 .titulo {
