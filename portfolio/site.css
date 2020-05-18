@@ -48,6 +48,12 @@ aside {
     background-color: #3C1D3D;
     color: #F2FFFC;
     text-align: center;
+    padding: 20px;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+aside li {
+    display: inline-block;
 }
 
 nav a {
@@ -82,3 +88,4 @@ em {
 strong {
     font-weight: bold;
 }
+
