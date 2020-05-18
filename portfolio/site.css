@@ -9,7 +9,7 @@ body {
 main {
     line-height: 1.5;
 }
-main h1 { 
+.titulo-principal { 
     font-size: 60px;
     background-color: #851944;
     color: #FAFFFA;
@@ -17,7 +17,8 @@ main h1 {
     font-family: "Open Sans Condensed", sans-serif;
     padding: 20px;
     margin: 0;
-    border-bottom: 10px solid #000;;
+    border-bottom: 10px solid #000;
+    text-transform: uppercase;
 }
 
 main a {
@@ -35,7 +36,7 @@ p {
     margin: 20px 0 20px 0;
 }
 
-blockquote {
+.citacoes {
     background-color: #D9E5E3;
     padding: 16px;
     border: 10px solid #C2CCCA;
@@ -44,7 +45,7 @@ blockquote {
     box-sizing: border-box;
 }
 
-aside {
+.navegacao-site {
     background-color: #3C1D3D;
     color: #F2FFFC;
     text-align: center;
@@ -52,21 +53,23 @@ aside {
     font-family: "Open Sans Condensed", sans-serif;
 }
 
-aside li {
+.icones-sociais li {
     display: inline-block;
 }
 
 nav a {
     color: inherit;
+    text-transform: lowercase;
     font-family: "Open Sans Condensed", sans-serif;
 }
 
 ul {
     list-style-type: none;
 }
-footer {
+.footer {
     background-color: #000;
     color: #F2FFFC;
+    padding: 20px;
 }
 
 .container {
@@ -89,3 +92,37 @@ strong {
     font-weight: bold;
 }
 
+article {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.leia-mais {
+    font-size: 20px;
+    margin-bottom: 25px;
+    background-color: #ddd;
+    text-align: center;
+    text-shadow: #3C1D3D;
+    width:100%;
+    padding: 5px;
+}
+
+.icones-sociais a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px;;
+}
+
+.github {
+    background-image: url(github.png);
+}
+
+.twitter {
+    background-image: url(twitter.png);
+}
+
+.linkedin {
+    background-image: url(linkedin.png);
+}
