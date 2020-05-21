@@ -1,50 +1,147 @@
-
-#banner {
-    width: 100%;
+header {
+    background: #BBB;
+    padding: 20px 0;
+}
+.container{
+    width: 940px;
+    margin: 0 auto; 
+    position: relative;
 }
 
-.principal {
-    background: #CCC;
-    padding: 30px;
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
-.titulo-principal {
-    padding-left: 20px;
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
 }
 
-.titulo-centralizado {
+nav a {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+nav a:hover {
+    color: royalblue;
+    text-decoration: underline;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.produtos li {
+    display: inline-block;
     text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-radius: 10px;
 }
 
-p {
-    text-align: center;
+.produtos li:hover {
+    border-color: royalblue;
 }
 
-#missao {
+.produtos li:hover h2 {
+    font-size: 32px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
     font-size: 18px;
 }
 
-em strong {
-    color: red;
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
-.itens {
-    font-style: italic;
+footer {
+    background-image: url(./bg.jpg);
+    text-align: center;
+    padding: 40px 0;
 }
 
-
-.beneficios {
-    background: #fff;
-    padding: 20px;
+.copyright{
+    color: #fff;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
 
-
-ul {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+main {
+    width: 940px;
+    margin: 0 auto;
 }
-.imagembeneficios {
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
     width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: royalblue;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transition: 1s all;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 30px 0 40px;
+    width: 40%;
+}
+
+table thead {
+    background: #555555;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+td, th  {
+    border: 1px solid #555;
+    padding: 10px;
 }
